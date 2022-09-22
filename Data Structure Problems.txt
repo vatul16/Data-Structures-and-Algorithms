@@ -1,0 +1,52 @@
+Classic Data Structure Problems:
+--------------------------------
+1. 2–Sum Problem
+2. Longest Common Subsequence Problem
+3. Maximum Subarray Problem
+4. Coin Change Problem
+5. 0–1 Knapsack Problem
+6. Subset Sum Problem
+7. Longest Palindromic Subsequence Problem
+8. Matrix Chain Multiplication Problem
+9. Longest Common Substring Problem
+10. Rod Cutting Problem
+11. Word Break Problem
+12. Edit Distance Problem
+13. Chess Knight Problem
+14. Partition Problem
+15. 3–Partition Problem
+16. Snake and Ladder Problem
+17. Largest Consecutive Subarray Problem
+18. Dutch National Flag Problem
+19. Knight’s Tour Problem
+20. Maximum Sum Submatrix Problem
+21. Longest Palindromic Substring Problem
+22. Job Sequencing Problem
+23. N–Queens Problem
+24. Maximum Product Subarray Problem
+25. Longest Repeated Subsequence Problem
+26. 3–Sum Problem
+27. Shortest Common Supersequence Problem
+28. Longest Alternating Subarray Problem
+29. 4–Sum Problem
+30. K–Partition Problem
+31. Minimum Sum Partition Problem
+32. Wildcard Pattern Matching Problem
+33. Maximum Overlapping Intervals Problem
+34. Graph Coloring Problem
+35. Longest Increasing Subsequence Problem
+36. Pots of Gold Game Problem
+37. Activity Selection Problem
+38. Longest Alternating Subsequence Problem
+39. Longest Consecutive Subsequence Problem
+40. Trapping Rain Water Problem
+41. Weighted Interval Scheduling Problem
+42. Longest Bitonic Subarray Problem
+43. Water Jugs Problem
+44. Hat Check Problem
+45. Merging Overlapping Intervals
+46. Longest Common Prefix (LCP) Problem
+47. Maximum Product Rod Cutting Problem
+48. Box Stacking Problem
+49. Maximum Product Subset Problem
+50. Maximum Independent Set Problem
