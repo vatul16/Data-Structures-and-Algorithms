@@ -1,4 +1,4 @@
-// C++ program for the implementation of Recursive Bubble Sort
+// C++ program for implementation of Recursive Bubble Sort
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -12,7 +12,7 @@ void swap(int *xp, int *yp)
 }
 
 // A function to implement bubble sort
-void bubbleSort(int arr[], int n)
+void recursiveBubbleSort(int arr[], int n)
 {
     // Base case
     if(n==1)
@@ -36,7 +36,7 @@ void bubbleSort(int arr[], int n)
 
         // Largest element is fixed
         // recur for remaining array
-        bubbleSort(arr, n-1);
+        recursiveBubbleSort(arr, n-1);
     }
 }
 
@@ -53,7 +53,7 @@ int main()
 {
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(arr)/sizeof(arr[0]);
-    bubbleSort(arr, n);
+    recursiveBubbleSort(arr, n);
     cout<<"Sorted Array: \n";
     printArray(arr, n);
     return 0;

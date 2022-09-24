@@ -8,7 +8,7 @@ This repository is created by me when I was practicing Data Structures & Algorit
 | Selection Sort | ✅ | ✅ | ✅ |
 | Recursive Selection Sort |  |  |  |
 | Bubble Sort | ✅ | ✅ | ✅ |
-| Recursive Bubble Sort |  |  |  |
+| Recursive Bubble Sort | ✅ | ✅ |  |
 | Insertion Sort |  |  |  |
 | Recursive Insertion Sort |  |  |  |
 | Merge Sort |  |  |  |
