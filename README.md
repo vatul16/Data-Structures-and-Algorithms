@@ -1,5 +1,6 @@
 # Data Structures & Algorithms
 ---
+This repository is created by me when I was practicing Data Structures & Algorithms. Below are the various Algorithms and the programs using C, C++, Python, etc. In future I have plan to work on this repository by add some DS problems, Coding Interview Problems and many more...
 
 ##### Data Structures: Sorting
 | Sorting Algorithms   | C     | C++   | Python    |
