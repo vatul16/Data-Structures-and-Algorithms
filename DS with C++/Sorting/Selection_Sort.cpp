@@ -1,6 +1,7 @@
 // C++ program for implementation of Selection Sort
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 // Swap function
@@ -43,6 +44,8 @@ int main()
 {
     int arr[] = {64, 25, 12, 22, 11};
     int n = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Original array:\n";
+    printArray(arr, n);
     selectionSort(arr, n);
     cout << "Sorted array: \n";
     printArray(arr, n);

@@ -1,15 +1,17 @@
 # Data Structures & Algorithms
+
 ---
 This repository is created by me when I was practicing Data Structures & Algorithms. Below are the various Algorithms and the programs using C, C++, Python, etc. In future I have plan to work on this repository by add some DS problems, Coding Interview Problems and many more...
 
-##### Data Structures: Sorting
+## Data Structures: Sorting
+
 | Sorting Algorithms   | C     | C++   | Python    |
 | :---     | :---: | :---: | ---:      |
 | Selection Sort | ✅ | ✅ | ✅ |
 | Recursive Selection Sort |  |  |  |
 | Bubble Sort | ✅ | ✅ | ✅ |
 | Recursive Bubble Sort | ✅ | ✅ |  |
-| Insertion Sort |  |  |  |
+| Insertion Sort |  | ✅ |  |
 | Recursive Insertion Sort |  |  |  |
 | Merge Sort |  |  |  |
 | Iterative Merge Sort |  |  |  |
@@ -17,9 +19,9 @@ This repository is created by me when I was practicing Data Structures & Algorit
 | Iterative Quick Sort |  |  |  |
 | Heap Sort |  |  |  |
 | Counting Sort |  |  |  |
-| Radix Sort |  |  |  |
+| Radix Sort |  | ✅ |  |
 | Bucket Sort |  |  |  |
-| Shell Sort |  |  |  |
+| Shell Sort |  | ✅ |  |
 | Tim Sort |  |  |  |
 | Comb Sort |  |  |  |
 | Pigeonhole Sort |  |  |  |
@@ -45,7 +47,8 @@ This repository is created by me when I was practicing Data Structures & Algorit
 | Merge Sort for Doubly Linked List |  |  |  |
 | 3-way Merge Sort |  |  |  |
 
-#### Data Structures: Searching
+## Data Structures: Searching
+
 | Searching Algorithms   | C     | C++   | Python    |
 | :---     | :---: | :---: | ---:      |
 | Linear Search |  |  |  |
@@ -61,7 +64,8 @@ This repository is created by me when I was practicing Data Structures & Algorit
 | Unbounded Binary Search Example (Find the point where a monotonically increasing function becomes positive first time) |  |  |  |
 
 ### References
-- https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
-- https://www.tutorialspoint.com/data_structures_algorithms/index.htm
-- https://www.javatpoint.com/data-structure-tutorial
-- https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU
+
+- www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
+- www.tutorialspoint.com/data_structures_algorithms/index.htm
+- www.javatpoint.com/data-structure-tutorial
+- youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU

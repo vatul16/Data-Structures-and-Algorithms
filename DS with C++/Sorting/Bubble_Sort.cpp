@@ -1,9 +1,10 @@
-// C program for implementation of Buble Sort
+// C++ program for implementation of Bubble Sort
 
-#include <stdio.h>
-#include <stdbool.h>
+// #include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
 
-// A function for swapping the values of two variableS
+// A function to swap the values of two variables
 void swap(int *xp, int *yp)
 {
     int temp = *xp;
@@ -28,6 +29,7 @@ void bubbleSort(int arr[], int n)
                 swapped = true;
             }
         }
+
         // If no two elements were swapped by inner loop, then break
         if(swapped == false)
         {
@@ -42,17 +44,18 @@ void printArray(int arr[], int size)
     int i;
     for(i = 0; i < size; i++)
     {
-        printf("%d\t",arr[i]);
+        cout<<arr[i]<<"\t";
     }
-    printf("\n");
 }
 
 int main()
 {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int arr[] = {30, 52, 29, 87, 63, 27, 19, 54};
     int n = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Original Array:\n";
+    printArray(arr, n);
     bubbleSort(arr, n);
-    printf("Sorted Array: \n");
+    cout<<"\nSorted Array:\n";
     printArray(arr, n);
     return 0;
 }
