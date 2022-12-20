@@ -43,7 +43,7 @@ int main()
     cout<<"Original Array: \n";
     printArray(arr, n);
     insertionSort(arr, n);
-    cout<<"\nSorted Array: \n";
+    cout<<"Sorted Array: \n";
     printArray(arr, n);
     return 0;
 }

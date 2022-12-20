@@ -60,6 +60,8 @@ void print(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
 		cout << arr[i] << " ";
+
+	cout<<endl;
 }
 
 // Driver Code
@@ -69,9 +71,10 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 	cout<<"Original Array:\n";
     print(arr, n);
-    cout<<"\nSorted Array:\n";
-	// Function Call
 	radixsort(arr, n);
+    cout<<"Sorted Array:\n";
+	// Function Call
+	
 	print(arr, n);
 	return 0;
 }

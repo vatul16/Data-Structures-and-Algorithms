@@ -46,6 +46,7 @@ void printArray(int arr[], int size)
     {
         cout<<arr[i]<<"\t";
     }
+    cout<<endl;
 }
 
 int main()
@@ -55,7 +56,7 @@ int main()
     cout<<"Original Array:\n";
     printArray(arr, n);
     bubbleSort(arr, n);
-    cout<<"\nSorted Array:\n";
+    cout<<"Sorted Array:\n";
     printArray(arr, n);
     return 0;
 }

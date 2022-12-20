@@ -37,6 +37,8 @@ void printArray(int arr[], int n)
 {
 	for (int i=0; i<n; i++)
 		cout << arr[i] << " ";
+
+	cout<<endl;
 }
 
 int main()
@@ -49,7 +51,7 @@ int main()
 
 	shellSort(arr, n);
 
-	cout << "\nSorted Array: \n";
+	cout << "Sorted Array: \n";
 	printArray(arr, n);
 
 	return 0;
