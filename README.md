@@ -67,5 +67,5 @@ This repository is created by me when I was practicing Data Structures & Algorit
 
 - www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
 - www.tutorialspoint.com/data_structures_algorithms/index.htm
-- www.javatpoint.com/data-structure-tutorial
-- https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU
+- <https://javatpoint.com/data-structure-tutorial>
+- <https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU>
