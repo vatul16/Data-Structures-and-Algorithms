@@ -36,10 +36,12 @@ bool isBalanced(string expr) {
       }
       return (s.empty()); //when stack is empty, return true
 }
-main() {
-   string expr = "[{}(){()}]";
+int main() {
+   string expr = "[(5+6)*7-{7/4}+(3*2)-8]";
    if (isBalanced(expr))
       cout << "Balanced";
    else
       cout << "Not Balanced";
+
+   return 0;
 }

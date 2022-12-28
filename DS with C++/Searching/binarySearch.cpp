@@ -25,8 +25,8 @@ int binarySearch(int arr[], int beg, int end, int val)
     return -1;     
 }   
 int main() {  
-  int arr[] = {10, 12, 24, 29, 39, 40, 51, 56, 70}; // given array  
-  int val = 51; // value to be searched  
+  int arr[] = {1,2,3,9,11,13,17,25,57,90}; // given array  
+  int val = 57; // value to be searched  
   int n = sizeof(arr) / sizeof(arr[0]); // size of array  
   int res = binarySearch(arr, 0, n-1, val); // Store result  
 
