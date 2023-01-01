@@ -1,7 +1,6 @@
-// C++ code to perform circular linked list operations
+// Implementation of Circular Linked List
 
 #include <iostream>
-
 using namespace std;
 
 struct Node {
