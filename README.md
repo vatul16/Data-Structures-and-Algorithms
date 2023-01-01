@@ -5,17 +5,32 @@ This repository is created by me when I was practicing Data Structures & Algorit
 
 ## Linked Lists
 
+| Algorithm | C | C++ | Python | Java |
+| :--- | :---: | :---: | :---: | ---: |
+| Singly Linked List |  | ✅ |  |  |
+| Doubly Linked List |  | ✅ |  |  |
+| Circular Linked List |  | ✅ |  |  |
+| Polynomial Addition |  |  |  |  |
+| Sparse Matrix |  |  |  |  |
+
 ## Stacks
 
 | Algorithm | C | C++ | Python | Java |
 | :--- | :---: | :---: | :---: | ---: |
-| Array Implementation |  |  |  |  |
-| Linked List Implementation |  |  |  |  |
-| Evaluation to Postfix Evaluation |  |  |  |  |
-| Balancing of Parenthesis |  |  |  |  |
+| Array Implementation |  | ✅ |  |  |
+| Linked List Implementation |  | ✅ |  |  |
+| Evaluation to Postfix Evaluation |  | ✅ |  |  |
+| Balancing of Parenthesis |  | ✅ |  |  |
 | Conversion of Infix Notation to Postfix Notation |  |  |  |  |
 
 ## Queues
+
+| Algorithm | C | C++ | Python | Java |
+| :--- | :---: | :---: | :---: | ---: |
+| Queue using Array |  | ✅ |  |  |
+| Queue using Linked List |  | ✅ |  |  |
+| Circular Queue |  | ✅ |  |  |
+| Priority Queue |  | ✅ |  |  |
 
 ## Trees
 
