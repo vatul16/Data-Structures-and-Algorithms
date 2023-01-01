@@ -1,6 +1,5 @@
 # Data Structures & Algorithms
 
----
 This repository is created by me when I was practicing Data Structures & Algorithms. Below are the various Algorithms and the programs using C, C++, Python, Java etc. In future I have plan to work on this repository by adding some DS problems, Coding Interview Problems and many more...
 
 ## Linked Lists
