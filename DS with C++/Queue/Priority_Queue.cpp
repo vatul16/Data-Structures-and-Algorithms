@@ -4,7 +4,8 @@
 using namespace std;
 
 // Node
-typedef struct node {
+typedef struct node
+{
 	int data;
 
 	// Lower values indicate
@@ -27,10 +28,13 @@ Node* newNode(int d, int p)
 }
 
 // Return the value at head
-int peek(Node** head) { return (*head)->data; }
+int peek(Node** head)
+{
+	return (*head)->data;
+}
 
 // Removes the element with the
-// highest priority form the list
+// highest priority from the list
 void pop(Node** head)
 {
 	Node* temp = *head;
@@ -47,19 +51,24 @@ void push(Node** head, int d, int p)
 	Node* temp = newNode(d, p);
 
 	// Special Case: The head of list has
-	// lesser priority than new node
-	if ((*head)->priority < p) {
-
+	// lesser priority than new node. So
+	// insert newnode before head node
+	// and change head node.
+	if ((*head)->priority > p)
+	{
+		
 		// Insert New Node before head
 		temp->next = *head;
 		(*head) = temp;
 	}
-	else {
-
+	else
+	{
+		
 		// Traverse the list and find a
 		// position to insert new node
-		while (start->next != NULL
-			&& start->next->priority > p) {
+		while (start->next != NULL &&
+			start->next->priority < p)
+		{
 			start = start->next;
 		}
 
@@ -71,12 +80,15 @@ void push(Node** head, int d, int p)
 }
 
 // Function to check is list is empty
-int isEmpty(Node** head) { return (*head) == NULL; }
+int isEmpty(Node** head)
+{
+	return (*head) == NULL;
+}
 
 // Driver code
 int main()
 {
-
+	
 	// Create a Priority Queue
 	// 7->4->5->6
 	Node* pq = newNode(4, 1);
@@ -84,9 +96,10 @@ int main()
 	push(&pq, 6, 3);
 	push(&pq, 7, 0);
 
-	while (!isEmpty(&pq)) {
+	while (!isEmpty(&pq))
+	{
 		cout << " " << peek(&pq);
 		pop(&pq);
 	}
-	return 0;
+	// return 0;
 }

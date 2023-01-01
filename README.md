@@ -57,3 +57,4 @@ This repository is created by me when I was practicing Data Structures & Algorit
 - <https://tutorialspoint.com/data_structures_algorithms/index.htm>
 - <https://javatpoint.com/data-structure-tutorial>
 - <https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU>
+- <https://www.collegenote.net/>
