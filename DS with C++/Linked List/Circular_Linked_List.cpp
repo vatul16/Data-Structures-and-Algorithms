@@ -1,6 +1,7 @@
 // Implementation of Circular Linked List
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 struct Node {

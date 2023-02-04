@@ -1,6 +1,7 @@
 // Implementation of Doubly Linked List
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 // node creation
