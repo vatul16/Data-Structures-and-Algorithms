@@ -55,7 +55,7 @@ void printArray(int arr[], int size)
 {
 	int i;
 	for (i = 0; i < size; i++)
-		cout << arr[i] << " ";
+		cout << arr[i] << "\t";
 }
 
 // Driver Code
@@ -63,10 +63,10 @@ int main()
 {
 	int arr[] = {24, 9, 29, 14, 19, 27};
 	int n = sizeof(arr) / sizeof(arr[0]);
-	cout<<"Original Array:\n";
+	cout<<"Array Before Sorting:\n";
 	printArray(arr, n);
 	quickSort(arr, 0, n - 1);
-	cout << "\nSorted array:\n";
+	cout << "\nArray After Quick Sort:\n";
 	printArray(arr, n);
 	return 0;
 }

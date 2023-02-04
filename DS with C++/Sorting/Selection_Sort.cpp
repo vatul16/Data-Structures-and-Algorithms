@@ -44,10 +44,10 @@ int main()
 {
     int arr[] = {64, 25, 12, 22, 11};
     int n = sizeof(arr)/sizeof(arr[0]);
-    cout<<"Original array:\n";
+    cout<<"Array Before Sorting:\n";
     printArray(arr, n);
     selectionSort(arr, n);
-    cout << "Sorted array: \n";
+    cout << "Array After Selection Sort: \n";
     printArray(arr, n);
     return 0;
 }

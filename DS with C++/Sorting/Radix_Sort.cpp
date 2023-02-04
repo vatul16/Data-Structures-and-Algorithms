@@ -59,7 +59,7 @@ void radixsort(int arr[], int n)
 void print(int arr[], int n)
 {
 	for (int i = 0; i < n; i++)
-		cout << arr[i] << " ";
+		cout << arr[i] << "\t";
 
 	cout<<endl;
 }
@@ -69,10 +69,10 @@ int main()
 {
 	int arr[] = {345, 654, 924, 123, 567, 472, 555, 808, 911};
 	int n = sizeof(arr) / sizeof(arr[0]);
-	cout<<"Original Array:\n";
+	cout<<"Array Before Sorting:\n";
     print(arr, n);
 	radixsort(arr, n);
-    cout<<"Sorted Array:\n";
+    cout<<"Array After Radix Sort:\n";
 	// Function Call
 	
 	print(arr, n);

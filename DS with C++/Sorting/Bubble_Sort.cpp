@@ -53,10 +53,10 @@ int main()
 {
     int arr[] = {30, 52, 29, 87, 63, 27, 19, 54};
     int n = sizeof(arr)/sizeof(arr[0]);
-    cout<<"Original Array:\n";
+    cout<<"Array Before Sorting:\n";
     printArray(arr, n);
     bubbleSort(arr, n);
-    cout<<"Sorted Array:\n";
+    cout<<"Array After Bubble Sort:\n";
     printArray(arr, n);
     return 0;
 }

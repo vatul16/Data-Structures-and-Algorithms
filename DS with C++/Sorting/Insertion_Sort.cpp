@@ -40,10 +40,10 @@ int main()
 {
     int arr[] = {12, 11, 13, 5, 6};
     int n = sizeof(arr)/sizeof(arr[0]);
-    cout<<"Original Array: \n";
+    cout<<"Array Before Sorting: \n";
     printArray(arr, n);
     insertionSort(arr, n);
-    cout<<"Sorted Array: \n";
+    cout<<"Array After Insertion Sort: \n";
     printArray(arr, n);
     return 0;
 }

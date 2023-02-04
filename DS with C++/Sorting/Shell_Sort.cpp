@@ -36,7 +36,7 @@ void shellSort(int arr[], int n)
 void printArray(int arr[], int n)
 {
 	for (int i=0; i<n; i++)
-		cout << arr[i] << " ";
+		cout << arr[i] << "\t";
 
 	cout<<endl;
 }
@@ -46,12 +46,12 @@ int main()
 	int arr[] = {33, 31, 40, 8, 12, 17, 25, 42};
 	int n = sizeof(arr)/sizeof(arr[0]);
 
-	cout << "Original Array: \n";
+	cout << "Array Before Sorting: \n";
 	printArray(arr, n);
 
 	shellSort(arr, n);
 
-	cout << "Sorted Array: \n";
+	cout << "Array After Shell Sort: \n";
 	printArray(arr, n);
 
 	return 0;
