@@ -1,4 +1,4 @@
-/* C++ implementation of QuickSort */
+// C++ implementation of Quick Sort
 #include <bits/stdc++.h>
 using namespace std;
 
